@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/simple-slideshow-styles.css">
+     <!-- Favicon -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!----CSS----->
+     <link rel="stylesheet" href="styleSheet.css">
+     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+     <!-- Flaticon Font -->
+     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+     <!----text Effect------>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+<body>
+    <!----------------------------Login popup----------------------------------------->
+    <div class="login-popup">
+		<div class="box">
+			 <div class="form">
+				 <div class="close">&times;</div>
+				 <h1>Log In</h1>
+				 <form>
+					<div class="form-group">
+						 <input type="email" id="email" placeholder="Email" class="form-control">
+					</div>
+					<div class="form-group">
+						 <input type="password" id="password" placeholder="Password" class="form-control">
+					</div>
+					<div class="form-group">
+								<a id="forget" class="forgetPaas" href="#">Forget Password ?</a>	
+					</div>
+					 <button type="button" class="btn">Log In</button>
+					<div class="registerNow">
+						<p>Not a member as yet ? <a href="registerpage.html" id="RN">Register Now</a></p>
+					</div>
+					
+				 </form>
+			 </div>
+		</div>
+   </div>
+    <!----------------------------------end of popup---------------------------------->
+    <div class="containerFull">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white pr-3" href="">FAQs</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="">Help</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white pl-3" href="">Support</a>
+                    </div>
+                </div>
+                <div class="icon">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fa fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------navbra---------------->
+        <div class="navPartA">
+            <div class="navPartB">
+                <nav>
+                    <input id ="nav-toggle" type="checkbox">
+                    <div class="logo">logo</div>
+                    <ul class="links">
+                        <li><a href="homepage.html">Home</a></li>
+                        <li><a href="aboutpage.html">About</a></li>
+                        <li><a href="registerpage.html">Register</a></li>
+                        <li><a href="#">History</a></li>
+                    </ul>
+                    <label for = "nav-toggle" class="icon-burger">
+                        <div class = "line"></div>
+                        <div class = "line"></div>
+                        <div class = "line"></div>
+                    </label>
+                </nav>
+
+            </div>
+        </div>
+       <!-- Under Nav Start -->
+    <div class="conFluid-A bgc-white pyA">
+        <div class="containerA">
+            <div class="rowA">
+                <div class="colLg-4-A text-left-A mb-3r-A mb-lg-0-A">
+                    <div class="d-inline-flex-A text-left-A">
+                        <h1 class="flaticon-office font-weight-normal-A text-primary-A m-0-A mr-3-A"></h1>
+                        <div class="d-flex-A flex-column-A">
+                            <h5>Our Office</h5>
+                            <p class="m-0-A">123 Street, Sri  Lanka</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="colLg-4-A text-left-A text-lg-center-A mb-3r-A mb-lg-0-A">
+                    <div class="d-inline-flex-A text-left-A">
+                        <h1 class="flaticon-email font-weight-normal-A text-primary-A m-0-A mr-3-A"></h1>
+                        <div class="d-flex-A flex-column-A">
+                            <h5>Email Us</h5>
+                            <p class="m-0-A">info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="colLg-4-A text-left-A text-lg-right mb-3r-A mb-lg-0-A">
+                    <div class="d-inline-flex-A text-left-A">
+                        <h1 class="flaticon-telephone font-weight-normal-A text-primary-A m-0-A mr-3-A"></h1>
+                        <div class="d-flex-A flex-column-A">
+                            <h5>Call Us</h5>
+                            <p class="m-0-A">+011 345 6789</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------slidShow----------------->
+    <div class="Slider"data-options="effect: random; effect-speed:1500; slide-duration:1500;">
+        <div class="Sliderframe fade">
+              <img src="./kj/5s.jpg" style="width: 100%;height: 100%;" class="SlideImgSt">
+              <div class="displayS1">
+                <h1 class="ml7">
+                    <span class="text-wrapper">
+                      <span class="letters">Visit this WQM to know the water quality for drink</span>
+                    </span>
+                  </h1>
+              </div>
+          </div> 
+        <div class="Sliderframe fade " style="display:block;">
+            <img src="./kj/1s.jpg" style="width: 100%;height: 100%;" class="SlideImgSt">
+            <div class="displayS1"> Thousands Have Lived Without Love, <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Not One Without Water.<br> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  – W.H.Auden</div>
+        </div>  
+          
+          <div class="Sliderframe fade">
+              <img src="./kj/3s.jpg" style="width: 100%;height: 100%;" class="SlideImgSt">
+              <div class="displayS2">After a natural disaster, safe drinking water is a priority. <br> &nbsp; &nbsp; &nbsp;Humans can live longer without food than water,<br> so communication about clean water is essential to help avoid <br> the risk of cholera, dysentery, malnutrition, famine, and death.</div>
+          </div> 
+          <!-- <a class="prev" onclick="currentSlide(-1)">&#10094;</a>
+          <a class="next"  onclick="currentSlide(1)">&#10095;</a> -->
+
+          <div class="dotbox" style="text-align:center;">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            </div>
+        </div>   
+    </div>
+    <!---------------Start about-----------------------> 
+    <div class="partD">
+		<div class = "aboutContainer">
+			<div class="abutImages">
+				<img src="images/istock.jpg" id="abtimg" class="imgAbout">
+			</div>
+			<div class="aboutProject">
+				<!-- <h4 class="first">LEARN ABOUT US</h4  > -->
+				<!-- <h1 class="ml7">Visit this WQM to know </h1> -->
+                <!-- <h1 class="ml7">
+                    <span class="text-wrapper">
+                      <span class="letters">Visit this WQM to know the water quality for drink</span>
+                    </span>
+                  </h1> -->
+				<!-- <h1 class="ml7">the water quality for drink</h1> -->
+                <!-- <h1 class="ml7">
+                    <span class="text-wrapper">
+                      <span class="letters">the water quality for drink</span>
+                    </span>
+                </h1> -->
+				<!-- <p class="aboutWS">Visit this WQM to know the water quality for drink.</p> -->
+				<div class="waterLQ">
+					<p><img src="images/SmallL.png">Water Level</p>
+					<p><img src="images/SmallWQ.png"> Water Quality</p>
+				</div>	
+			
+			</div>
+		</div>
+	</div>
+    <!---------------package------------------------->
+    <div class="Package">
+        <h2>Package Information</h2>
+        <div class="packageDeatil">
+            <table>
+                <tr>
+                    <td><img src="./packageImg/f1.png"></td>
+                    <td><img src="./packageImg/f2.png"></td>
+                    <td><img src="./packageImg/f3.png"></td>
+                    <td><img src="./packageImg/f4.png"></td>
+                </tr>
+                <tr>
+                    <td>Package name - 1 </td>
+                    <td>Package name - 2 </td>
+                    <td>Package name - 3 </td>
+                    <td>Package name - 4 </td>
+                </tr>
+                <tr>
+                    <td>Value - 7 days </td>
+                    <td>Value - 7 days </td>
+                    <td>Value - 1 montd </td>
+                    <td>Value - 1 year</td>
+                </tr>
+                <tr>
+                    <td>Price - Free</td>
+                    <td>Price - Rs.15/=</td>
+                    <td>Price - Rs.55/=</td>
+                    <td>Price - Rs.654.99/=</td>
+                </tr>
+            </table>
+        </div>   
+    </div>
+    
+    <!------------------footer-------------------->
+    <footer class="footer-disperse">
+
+        <div class="footerLeft">
+        
+                <img src="./photos/FTL2.png " alt="logo" class="footerLogo">
+    
+            <p class="links">
+                <a href="homepage.html">Home &nbsp;&nbsp;|&nbsp;&nbsp; </a>
+                
+                <a href="registerpage.html">Register &nbsp;&nbsp;|&nbsp;&nbsp; </a>
+                
+                <a href="aboutpage.html">About &nbsp;&nbsp;| &nbsp;&nbsp;</a>
+                
+                <a href="homepage.html">History</a>
+            </p> 
+            <div class="copy">
+                <p>© 2020 website | Desingned by noname</p>
+            </div>    
+        </div>
+    
+        <div class="Fcenter">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                    <p><span>add1</span>
+                        add2
+                    </p>
+            </div>
+    
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#"> mail</a></p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">120@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footerRight">
+            <p class="footer_about_me">
+                <span>About us</span>
+                writting</p>
+            <div class="footerIcons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"> <i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
